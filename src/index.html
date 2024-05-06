@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html', {
+    "title": "Main title"
+  })
+<body>
+
+<div class="wrapper">
+  @@include('html/header.html', {})
+
+  <main>
+    <h1>
+      Title
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Perferendis quam sed ducimus consequatur veniam architecto sint itaque ut unde aliquam!
+      Eaque atque ullam assumenda quas non, odio vitae impedit numquam
+    </p>
+    <img src="@img/image.jpg" alt="image">
+
+    
+    <!-- @@include('html/section.html', {}) -->
+
+    <!-- @@include('html/slider.html', {}) -->
+  </main>
+
+  @@include('html/footer.html', {})
+</div>
+
+ <script src="js/app.min.js"></script>
+</body>
+</html>

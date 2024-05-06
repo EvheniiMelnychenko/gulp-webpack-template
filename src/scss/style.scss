@@ -1,0 +1,16 @@
+@import "basik/index.scss";
+
+@import "parts/index.scss";
+
+body {
+
+   span {
+     color: #ff0000;
+
+    @media (max-width: 768px) {
+      color: green;
+    }
+   }
+}
+
+
